@@ -42,12 +42,11 @@ Used: [Crop Recommendation Dataset (Kaggle)](https://www.kaggle.com/datasets/ath
 
 ## 🚀 How to Run the App
 
-### 1. Clone this repo
-
 ```bash
 git clone https://github.com/your-username/crop-advisory-system.git
 cd crop-advisory-system
-
+pip install -r requirements.txt
+python -m streamlit run crop_recommendation_app.py
 
 
 
