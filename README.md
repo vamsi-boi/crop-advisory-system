@@ -14,31 +14,24 @@
              24UG010442
              ASHWIN KUMAR PANIGRAHY
 
-# 🌾 Crop Advisory System
+# 🌾 Crop Advisory System (Streamlit App)
 
-An interactive, data-driven crop recommendation system using soil and environmental parameters. Designed to help small and marginal farmers make informed decisions about which crop to grow for maximum yield and profitability.
+A simple and interactive web application that recommends the most suitable crop to grow based on input soil parameters and environmental conditions, built using Streamlit and machine learning.
 
----
+## 🚀 Features
 
-## 📌 Features
+- ✅ Predicts the most suitable crop based on user input
+- 📈 Uses a machine learning model trained on agricultural data
+- 🖥️ Built with Streamlit for fast and interactive UI
+- 💡 Lightweight and easy to run locally
 
-- Input parameters: Nitrogen (N), Phosphorous (P), Potassium (K), Temperature, Humidity, pH, Rainfall
-- ML-based crop prediction (Random Forest)
-- Top 3 crop suggestions with confidence scores
-- Dynamic visual comparisons of input vs dataset
-- Agronomic advisory (e.g., fertilizer needs, risk alerts)
-- Clean and beginner-friendly interface (Streamlit)
+## 🛠️ Tech Stack
 
----
-
-## 📊 Dataset
-
-Used: [Crop Recommendation Dataset (Kaggle)](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)  
-- 2200+ labeled entries  
-- 22 different crops  
-- Parameters: N, P, K, Temperature, Humidity, pH, Rainfall
-
----
+- Python 3.8+
+- Streamlit
+- scikit-learn
+- pandas
+- numpy
 
 ## 🚀 How to Run the App
 
@@ -47,8 +40,6 @@ git clone https://github.com/your-username/crop-advisory-system.git
 cd crop-advisory-system
 pip install -r requirements.txt
 python -m streamlit run crop_recommendation_app.py
-
-
 
 
 
